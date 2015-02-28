@@ -6,6 +6,8 @@ tap caskroom/cask
 install brew-cask
 cask install alfred
 cask install android-studio
+cask install appcleaner
+cask install bettertouchtool
 cask install chefdk
 cask install cyberduck
 cask install dropbox
@@ -16,12 +18,14 @@ cask install iterm2
 cask install java
 cask install kobito
 cask install macvim
+cask install robomongo
 cask install sequel-pro
 cask install sketch
 cask install skitch
 cask install slack
 cask install vagrant
 cask install virtualbox
+cask install xtrafinder
 
 ## caskroom/fonts
 tap caskroom/fonts
@@ -43,34 +47,42 @@ install brew-file
 
 # Other Homebrew packages
 install autoconf
+install cloog
 install colordiff
 install coreutils
 install cscope
+install curl
 install freetype
+install gcc
 install gdbm
 install git
+install gmp
 install gnu-sed
-install go
+install hub
 install imagemagick
+install isl
 install jpeg
+install jq
 install libevent
+install libmpc
 install libpng
 install libtool
 install macvim
-install node
+install mpfr
+install nkf
 install openssl
 install pcre
 install phantomjs
 install pkg-config
-install rbenv
-install ruby-build
 install tig
 install tmux
 install tree
 install vim
 install wget
 install xz
+install z
 install zsh
+install zsh-completions
 
 # App Store applications
 appstore LINE
