@@ -4,24 +4,24 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install alfred
+cask install android-studio
+cask install cyberduck
+cask install dropbox
+cask install github
+cask install google-chrome
+cask install google-japanese-ime
+cask install iterm2
 cask install kobito
-cask install alfred #/Applications/Alfred 2.app
-cask install android-studio #/Applications/Android Studio.app
-cask install cyberduck #/Applications/Cyberduck.app
-cask install dropbox #/Applications/Dropbox.app
-cask install github #/Applications/GitHub.app
-cask install google-chrome #/Applications/Google Chrome.app
-cask install iterm2 #/Applications/iTerm.app
-#cask install opera-mail #/Applications/Mail.app
-#cask install whatsapp-pocket #/Applications/Pocket.app
-cask install sequel-pro #/Applications/Sequel Pro.app
-cask install sketch #/Applications/Sketch.app
-cask install skitch #/Applications/Skitch.app
-cask install slack #/Applications/Slack.app
-cask install virtualbox #/Applications/VirtualBox.app
-#cask install serviio #/Applications/Utilities/Console.app
-#cask install tinygrab #/Applications/Utilities/Grab.app
-#cask install gpgtools #/Applications/Utilities/Keychain Access.app
+cask install sequel-pro
+cask install sketch
+cask install skitch
+cask install slack
+cask install virtualbox
+cask install chefdk
+cask install vagrant
+cask install java
+cask install macvim
 
 ## caskroom/fonts
 tap caskroom/fonts
@@ -29,13 +29,48 @@ tap caskroom/fonts
 ## homebrew/brewdler
 tap homebrew/brewdler
 
+## motemen/ghq
+tap motemen/ghq
+install ghq
+
+## peco/peco
+tap peco/peco
+install peco
+
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
 
+# Other Homebrew packages
+install autoconf
+install colordiff
+install coreutils
+install cscope
+install freetype
+install gdbm
+install git
+install gnu-sed
+install imagemagick
+install jpeg
+install libevent
+install libpng
+install libtool
+install macvim
+install openssl
+install pcre
+install phantomjs
+install pkg-config
+install rbenv
+install ruby-build
+install tig
+install tmux
+install tree
+install vim
+install wget
+install xz
+install zsh
+
 # App Store applications
 appstore LINE
 appstore Pocket
-appstore Skitch
-appstore Slack
 appstore Xcode
