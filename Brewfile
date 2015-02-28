@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install kobito
 
 ## caskroom/fonts
 tap caskroom/fonts
@@ -14,11 +15,6 @@ tap homebrew/brewdler
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
-
-# Below applications were installed by Cask,
-# but don't not have corresponding casks.
-
-#cask  install Warning: nothing to list
 
 # App Store applications
 appstore LINE
